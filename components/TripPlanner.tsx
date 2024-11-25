@@ -152,7 +152,7 @@ export default function TripPlanner() {
             disabled={currentStep === steps.length - 1}
             className="w-[100px]"
           >
-            {currentStep === steps.length - 1 ? "Finish" : "Next"}
+            {currentStep === steps.length - 1 ? "Plan a trip" : "Next"}
             <ChevronRight className="ml-2 h-4 w-4" />
           </Button>
         </div>
