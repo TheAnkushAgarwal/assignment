@@ -14,7 +14,7 @@ Make sure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone (https://github.com/TheAnkushAgarwal/assignment.git)
+   git clone https://github.com/TheAnkushAgarwal/assignment.git
    cd assignment
    ```
 
@@ -41,3 +41,5 @@ Create a `.env` file in the root directory and add your environment variables th
 ```
 NEXT_PUBLIC_OPENCAGE_API_KEY=<your-api-url>
 ```
+
+get your OpenCage Geocoding API key from https://opencagedata.com/ for getting location
